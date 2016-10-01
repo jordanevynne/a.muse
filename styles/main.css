@@ -1,6 +1,7 @@
 html {
   height: 100%;
   font-size: 75%;
+  font-family: sans-serif;
   background: url(../assets/images/IMG_6315.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -14,11 +15,10 @@ body {
 }
 
 .navbar {
-  width: 100%;
-  float: left;
+  overflow: hidden;
   margin: 0;
   padding: 0;
-  list-style: none; 
+  list-style-type: none; 
 }
 
 .navbar li {
@@ -26,61 +26,18 @@ body {
 }
 
 .navbar li a {
-  display: block;
-  padding: 20px 13px;
-  text-decoration: underline;
-  color: white;
-  font-size: 1.3em;
-  font-family: sans-serif;
-}
-
-.hero-content {
-  position: relative;
-  min-height: 600px;
-}
-
-.hero-content .hero-title {
-  position: absolute;
-  top: 47%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  width: 100%;
+  display: inline-block;
   text-align: center;
-  font-size: 8em;
-  font-weight: 300;
-  letter-spacing: 2.5rem;
+  padding: 20px 13px;
+  color: white;
+  font-size: 15px;
 }
 
-.hero-content .hero-tagline {
-  position: absolute;
-  top: 75%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  width: 100%;
-  text-align: center; 
-  font-size: 1.5em;
-  font-weight: 100;
-  letter-spacing: 0.2em;
+
+/*@media (min-width: 640px) {
+  html { font-size: 100%; }
 }
 
-.content {
-  position: relative;
-  display: block;
-  width: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.intro {
-  display: table;
-  position: relative;
-  width: 100%;
-  text-align: left;
-  margin: 0;
-  padding: 100px 0px 45px 10px;
-}
+@media (min-width: 1024px) {
+  html { font-size: 100%; }
+}*/
